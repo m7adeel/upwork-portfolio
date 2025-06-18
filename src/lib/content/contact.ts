@@ -8,5 +8,5 @@ export const contactSection: ContactSectionType = {
     "I'm open to working on exciting project and love to collaborate",
     'Looking to discuss a project or just say hi? Feel free to message me anytime!',
     ],
-    link: `mailto:${author.email}`,
+    link: `https://www.upwork.com/freelancers/~01949cedcfe8f96041?mp_source=share`,
 };

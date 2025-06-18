@@ -7,15 +7,13 @@
 import { StringKeyValueType } from '../types';
 
 export const socialLinks: StringKeyValueType = {
-  instagram: 'https://www.instagram.com/muhammad___adeel__/',
   github: 'https://github.com/m7adeel',
-  linkedin: 'https://www.linkedin.com/in/m7adeel',
-  medium: 'https://medium.com/@m7adeel'
+  upwork: 'https://www.upwork.com/freelancers/~01949cedcfe8f96041?mp_source=share',
 };
 
 export const author = {
   name: 'Muhammad Adeel',
-  email: 'm7adeel@gmail.com',
+  email: 'Adeel',
 };
 
 export const seoData = {
