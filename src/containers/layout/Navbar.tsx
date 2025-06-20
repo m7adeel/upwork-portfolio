@@ -81,7 +81,7 @@ const NavItem = ({
 };
 
 const Navbar = () => {
-  const { cta, navLinks } = navbarSection;
+  const { navLinks } = navbarSection;
   const [navbarCollapsed, setNavbarCollapsed] = useState(false);
   const [scrollY, setScrollY] = useState(0);
   const navbarRef = useRef<HTMLDivElement>(null);
@@ -174,22 +174,6 @@ const Navbar = () => {
             ))}
 
             <div className="flex items-center justify-between gap-5 xl:gap-6">
-              {cta && (
-                <Button
-                  type="link"
-                  href={cta.url}
-                  sameTab={cta?.sameTab}
-                  variants={slideIn({
-                    delay: ANIMATION_DELAY + navLinks.length / 10,
-                    direction: 'down',
-                  })}
-                  initial="hidden"
-                  animate="show"
-                  className="border-[2px] bg-transparent hover:bg-sky-500/10 dark:hover:bg-sky-400/10"
-                >
-                  {cta.title}
-                </Button>
-              )}
               <DarkModeButton
                 onClick={() => setNavbarCollapsed(false)}
                 variants={slideIn({
