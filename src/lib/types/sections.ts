@@ -19,7 +19,6 @@ export interface HeroSection {
 
 export interface NavbarSectionType {
   navLinks: NavLinkType[];
-  cta: CTAType;
 }
 
 export interface HeroSectionType extends HeroSection {
